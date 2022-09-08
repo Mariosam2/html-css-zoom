@@ -1,6 +1,7 @@
 :root {
     --var-grey: #4A4A4A;
     --var-darkgrey: #222222;
+    --var-green: #48C302;
 }
 
 
@@ -9,6 +10,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
 }
 
 body {
@@ -42,8 +44,8 @@ img {
     align-items: center;
 }
 
-.align-baseline {
-    align-items: flex-end;
+.center {
+    justify-content: center;
 }
 
 
@@ -142,10 +144,13 @@ footer {
 
 }
 
+.icon span {
+    font-size: 16px;
+}
 
 
 .icon i:first-child {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .icon i, .icon span {
@@ -162,6 +167,25 @@ footer {
 
 }
 
+.icon.share i:first-child {
+    color: var(--var-green)
+}
+
+
+.icon.chat i:last-child {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    font-size: 10px;
+    translate: -10% 0;
+}
+
+.footer_right {
+    background-color: var(--var-grey);
+    padding-right: 3rem;
+    padding-left: 2rem;
+    color: red;
+}
 /* #endregion footer*/
 
 
