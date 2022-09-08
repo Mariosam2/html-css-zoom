@@ -1,3 +1,9 @@
+:root {
+    --var-grey: #4A4A4A;
+    --var-darkgrey: #222222;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,3 +15,64 @@ body {
     width: 100vw;
     background-color: black;
 }
+
+
+/* Utility */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+
+.align-center {
+    align-items: center;
+}
+
+
+/* #region header */
+
+
+.view {
+    
+    color: white;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+.view span {
+    vertical-align: middle;
+}
+
+.fullscreen i {
+    color: white;
+    padding: 1rem;
+
+}
+
+
+.text {
+    padding-left: 0.5rem;
+    background-color: ;
+
+}
+
+
+
+/* #endregion header*/
+
+
+/* #region main */
+
+/* #endregion main*/
+
+
+
+/* #region footer */
+
+/* #endregion footer*/
+
+
