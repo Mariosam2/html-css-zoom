@@ -28,6 +28,10 @@ img {
     max-width: 100%;
 }
 
+span:hover, i:hover  {
+    cursor: pointer;
+}
+
 
 /* Utility */
 
